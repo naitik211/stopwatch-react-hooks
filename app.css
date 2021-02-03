@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+#root {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 575px;
+}
+
+.stop-watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timer-dial {
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.timer-text {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.button-container {
+    justify-content: center;
+    display: flex;
+    margin-top: 24px;
+}
+
+button {   
+     margin: 0 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h3 {
+    margin: 0;
+}
